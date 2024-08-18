@@ -1,0 +1,121 @@
+/* Book Details Page */
+.book-details {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1400px;
+  border-radius: 10px;
+}
+
+.book-details-header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.book-details-cover {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+
+.book-details-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.book-details-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.book-details-price,
+.book-details-author,
+.book-details-category,
+.book-details-rating,
+.book-details-description {
+  margin: 5px 0;
+  font-size: 1.04em;
+}
+
+.book-details-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cart-details-button {
+  background-color: var(--highlight-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.cart-details-button:hover {
+  background-color: var(--button-hover-color);
+}
+
+/* Related Books */
+.related-books {
+  margin-top: 100px;
+  font-family: "Trebuchet MS", Trebuchet, sans-serif;
+}
+
+.related-books h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.related-books-list {
+  display: flex;
+  gap: 20px; /* Adjust gap to your preference */
+  padding: 10px 0;
+  overflow: hidden; /* Ensure there's no scroll */
+}
+
+.related-book-card {
+  flex: 1 1 18%; /* Adjust width of each card to fit 5 cards */
+  display: flex;
+  flex-direction: column;
+  background-color: var(--book-detail-card-background-color);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.related-book-cover {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.related-book-info {
+  padding: 10px;
+}
+
+.related-book-title {
+  font-size: 1.1em;
+  color: var(--primary-text-color);
+  margin: 5px 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.related-book-title:hover {
+  text-decoration: underline;
+}
+
+.related-book-author,
+.related-book-price {
+  font-size: 0.9em;
+  color: var(--secondary-text-color);
+}
