@@ -1,0 +1,71 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@google-cloud/dialogflow": "^6.8.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "assert": "^2.1.0",
+    "axios": "^1.7.4",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "customize-cra": "^1.0.0",
+    "google-auth-library": "^9.13.0",
+    "http-browserify": "^1.7.0",
+    "https-browserify": "^1.0.0",
+    "jest": "^27.5.1",
+    "net-browserify": "^0.2.4",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "5.0.1",
+    "setimmediate": "^1.0.5",
+    "slick-carousel": "^1.8.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "timers-browserify": "^2.0.12",
+    "tls-browserify": "^0.2.2",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "uuid": "^10.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "resetMocks": false
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "axios-mock-adapter": "^1.22.0",
+    "fetch-mock": "^11.0.0"
+  }
+}
