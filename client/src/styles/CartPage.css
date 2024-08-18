@@ -1,0 +1,99 @@
+/* Cart Page */
+.cart-page {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  padding: 20px;
+}
+
+/* Cart Table */
+.cart-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-page th,
+.cart-page td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-page th {
+  background-color: var(--card-background-color);
+  color: var(--primary-text-color);
+}
+
+/* Quantity Input */
+.cart-page input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Remove Button */
+.cart-page button {
+  background-color: var(--highlight-color);
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.cart-page button:hover {
+  background-color: var(--button-hover-color);
+}
+
+/* Cart Total */
+.cart-total {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.cart-total h2 {
+  font-size: 1.8em;
+  color: var(--highlight-color);
+}
+
+.checkout-button {
+  background-color: var(--highlight-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.checkout-button:hover {
+  background-color: var(--button-hover-color);
+}
+
+/* Login Prompt */
+.login-prompt {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  border-radius: 5px;
+  font-size: 1.3em;
+}
+
+.login-button {
+  background-color: var(--highlight-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  background-color: var(--button-hover-color);
+}

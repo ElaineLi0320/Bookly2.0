@@ -1,0 +1,359 @@
+/* Homepage */
+.homepage {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: "Trebuchet MS", Trebuchet, sans-serif;
+
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.header nav a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.header nav a:hover {
+  color: var(--highlight-color);
+}
+
+/* Weather section */
+.weather-banner {
+  background-color: #e5ecf2;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.weather-banner h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.weather-banner p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+/* Welcome Banner */
+.welcome-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding: 20px;
+  background-color: var(--card-background-color);
+  color: var(--primary-text-color);
+  border-radius: 8px;
+}
+
+.welcome-info {
+  text-align: left;
+}
+
+.welcome-info h2 {
+  font-size: 1.5em;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.shop-now-button {
+  background-color: var(--highlight-color);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.shop-now-button:hover {
+  background-color: var(--button-hover-color);
+}
+
+/* Carousel */
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex: 0 0 100%;
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide img:hover {
+  transform: scale(1.1);
+}
+
+.carousel-button {
+  background-color: var(--highlight-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-button:hover {
+  background-color: var(--button-hover-color);
+}
+
+/* Main Area */
+.main-area {
+  padding: 20px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 40px;
+}
+
+/* Section Titles */
+section h2 {
+  color: var(--highlight-color);
+  font-size: 1.8em;
+  border-bottom: 2px solid var(--highlight-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Latest Books Section */
+.latest-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Top Picks Section */
+.top-picks-section {
+  text-align: center;
+}
+
+.top-picks-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.top-pick-card {
+  position: relative;
+  width: 150px;
+  background-color: var(--card-background-color);
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.top-pick-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+.book-info {
+  text-align: center;
+  padding: 10px;
+}
+
+.book-title {
+  font-size: 1em;
+  color: var(--primary-text-color);
+  height: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-price {
+  font-size: 1.2em;
+  color: var(--primary-text-color);
+  height: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.book-actions {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.book-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  color: var(--highlight-color);
+}
+
+.book-actions button:hover {
+  color: var(--button-hover-color);
+}
+
+/* Explore More Button */
+.explore-more-button {
+  background-color: var(--highlight-color);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.explore-more-button:hover {
+  background-color: var(--button-hover-color);
+}
+
+/* User Wishlist/Cart Section */
+.user-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Login Prompt Section */
+.login-prompt {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--card-background-color);
+}
+
+.login-prompt h2 {
+  color: var(--highlight-color);
+  font-size: 1.2em;
+}
+
+.login-prompt p {
+  color: var(--secondary-text-color);
+  font-size: 1em;
+}
+
+.login-button {
+  background-color: var(--highlight-color);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: var(--button-hover-color);
+}
+
+/* Book Card */
+.book-card {
+  background-color: var(--card-background-color);
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.book-card h3 {
+  margin: 0;
+  color: var(--primary-text-color);
+}
+
+.book-card p {
+  color: var(--secondary-text-color);
+}
+
+.cart-books {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px;
+  gap: 10px;
+}
+
+.cart-books .book-cover-link {
+  flex: 0 0 auto;
+  margin: 0 10px;
+}
+
+.cart-book-cover {
+  max-width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.go-to-cart-button {
+  background-color: var(--highlight-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.go-to-cart-button:hover {
+  background-color: var(--button-hover-color);
+}
